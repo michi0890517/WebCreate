@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>オリジナルサイト制作 | WebCreate</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfcfa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6ec6ff, #2979ff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #2979ff;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    h2 {
+      color: #2979ff;
+    }
+    .cta {
+      background-color: #ffeb3b;
+      color: #333;
+      padding: 30px;
+      text-align: center;
+      border-radius: 8px;
+      margin: 40px 0;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    button {
+      background-color: #2979ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1c54b2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>あなたのためのオリジナルサイト制作</h1>
+    <p>“欲しい”を超えるサイトを、あなたに。</p>
+  </header>
+  <nav>
+    <a href="#service">サービス</a>
+    <a href="#portfolio">実績</a>
+    <a href="#price">料金</a>
+    <a href="#voice">お客様の声</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+  
+  <section id="service">
+    <h2>サービス内容</h2>
+    <div class="card">
+      <p>完全オリジナルデザインで、あなたのビジネスに最適なサイトを制作します。スマホ対応、WordPress導入、アニメーション付きUIなど幅広く対応可能です。</p>
+      <ul>
+        <li>レスポンシブ対応</li>
+        <li>WordPress対応</li>
+        <li>高速表示・SEO対応</li>
+        <li>問い合わせフォーム付き</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>制作実績</h2>
+    <div class="card">
+      <p>飲食店・サロン・ECサイト・個人ブログなど様々なジャンルに対応しています。</p>
+      <p><strong>例：</strong><br>「カフェ・ブリッジ」：白を基調にしたナチュラル系デザインのカフェサイト（<a href="https://michi0890517.github.io/kahuxe-eria/" target="_blank">https://michi0890517.github.io/kahuxe-eria/</a>）</p>
+    </div>
+  </section>
+
+  <section id="price">
+    <h2>料金プラン</h2>
+    <div class="card">
+      <ul>
+        <li>ライトプラン：￥50,000～（1ページ構成）</li>
+        <li>スタンダードプラン：￥100,000～（3～5ページ構成）</li>
+        <li>プレミアムプラン：￥200,000～（複数ページ＋機能追加）</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="voice">
+    <h2>お客様の声</h2>
+    <div class="card">
+      <p>「想像以上に素敵なサイトができて大満足です！また次回もお願いしたいです。」（30代・女性・美容室オーナー）</p>
+    </div>
+
+    <h2>お問い合わせ</h2>
+      <form>
+        <label>お名前：<br><input type="text" name="name" required></label><br><br>
+        <label>メールアドレス：<br><input type="email" name="email" required></label><br><br>
+        <label>ご相談内容：<br><textarea name="message" rows="5" required></textarea></label><br><br>
+<p style="text-align:center; font-weight:bold; margin-top:20px;">
+  📱 また、LINEでのお問い合わせも可能です：<br>
+  <a href="https://lin.ee/iWW1KvR" target="_blank" style="color:#2979ff; text-decoration:underline;">LINEで問い合わせる</a>
+</p><br>
+        <button type="submit">送信</button>
+      </form>
+    </div>
+  </section>
+
+<div class="cta">
+    <h3>今すぐ、あなた専用のWebサイトを</h3>
+    <p>まずはお気軽にお問い合わせください。ヒアリングは無料です！</p>
+</div>
+
+  <footer>
+    &copy; 2025 WebCreate. All rights reserved.
+  <p style="text-align:center; font-weight:bold; margin-top:20px;">
+</a>
+</p>
+
+</body>
+</html>
